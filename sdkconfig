@@ -1,0 +1,18 @@
+#
+# SDKConfig stub for ESP32 SIP Intercom
+# This will be auto-expanded by ESP-IDF on first build
+#
+
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_FREERTOS_UNICORE=y
+CONFIG_ESP_WIFI_ENABLED=y
+CONFIG_I2S_ENABLED=y
+
+# Placeholder for Wi-Fi credentials
+CONFIG_WIFI_SSID="YourSSID"
+CONFIG_WIFI_PASSWORD="YourPassword"
+
+# SIP server placeholder
+CONFIG_SIP_SERVER="pbx.local"
+CONFIG_SIP_USER="1001"
+CONFIG_SIP_PASS="password"
